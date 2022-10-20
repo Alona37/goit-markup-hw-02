@@ -1,0 +1,76 @@
+body {
+	font-family: Roboto;
+	font-size: 14px;
+	line-height: 1.14;
+	font-weight: 400;
+	color: #212121;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+ul {
+	list-style: none;
+}
+.logo-web {
+	font-family: Raleway;
+	font-style: Bold;
+	font-size: 26px;
+	line-height: 1.19;
+	word-spacing: 0%;
+}
+.web {
+	color: #2196f3;
+}
+
+.hero {
+	background: #2f303a;
+}
+.hero-headline {
+	color: #ffffff;
+}
+.hero-btn {
+}
+.hero-btn:hover,
+.hero-btn:focus {
+	color: #ffffff;
+	background: #2196f3;
+	cursor: pointer;
+}
+.subtitle-features {
+	font-style: Bold;
+	line-height: 1.14;
+	font-size: 14px;
+}
+.desc-features {
+	font-style: Regular;
+	line-height: 1.71;
+	color: #757575;
+}
+.title-services {
+	/* font-style: Bold; */
+	font-size: 36px;
+	line-height: 1.17;
+}
+.contacts:hover,
+.contacts:focus {
+	color: #757575;
+	color: #2196f3;
+}
+.team {
+	font-style: Bold;
+	font-size: 36px;
+	line-height: 1.17;
+}
+.team-members {
+	font-style: Medium;
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 500;
+}
+.job-title {
+	font-style: Regular;
+	font-size: 16px;
+	line-height: 19px;
+	color: #757575;
+}
