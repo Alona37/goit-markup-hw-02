@@ -1,9 +1,17 @@
+:root {
+	--main-black: #212121;
+	--main-grey: #757575;
+	--main-white: #ffffff;
+	--main-blue: #2196f3;
+	--font-weght-bold: 700;
+}
 body {
 	font-family: Roboto;
 	font-size: 14px;
 	line-height: 1.14;
 	font-weight: 400;
-	color: #212121;
+	color: var(--main-black);
+	font-style: normal;
 }
 a {
 	text-decoration: none;
@@ -12,65 +20,140 @@ a {
 ul {
 	list-style: none;
 }
-.logo-web {
+/* Навігація */
+.logo {
 	font-family: Raleway;
-	font-style: Bold;
+	font-weight: var(--font-weght-bold);
 	font-size: 26px;
-	line-height: 1.19;
-	word-spacing: 0%;
+	line-height: 1.192;
 }
 .web {
-	color: #2196f3;
+	color: var(--main-blue);
 }
-
+.nav-link:hover,
+nav-link:focus {
+	color: var(--main-blue);
+}
+.contacts {
+	line-height: 16px;
+	color: var(--main-grey);
+}
+.contacts:hover,
+.contacts:focus {
+	color: var(--main-grey);
+	color: var(--main-blue);
+}
+/* Герой */
 .hero {
+	text-align: center;
 	background: #2f303a;
+	width: 1600px;
 }
 .hero-headline {
-	color: #ffffff;
+	font-size: 44px;
+	line-height: 1.36;
+	color: var(--main-white);
 }
 .hero-btn {
+	font-family: inherit;
+	font-weight: var(--font-weght-bold);
+	font-size: 16px;
+	line-height: 1.88;
+	height: 50px;
+	width: 216px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
-	color: #ffffff;
-	background: #2196f3;
+	color: var(--main-white);
+	background: var(--main-blue);
 	cursor: pointer;
 }
+/* Особливості */
+.title-features {
+	visibility: hidden;
+}
 .subtitle-features {
-	font-style: Bold;
+	font-weight: var(--font-weght-bold);
 	line-height: 1.14;
 	font-size: 14px;
 }
 .desc-features {
-	font-style: Regular;
+	font-weight: 500;
 	line-height: 1.71;
-	color: #757575;
+	color: var(--main-grey);
 }
 .title-services {
-	/* font-style: Bold; */
+	font-weight: var(--font-weght-bold);
 	font-size: 36px;
 	line-height: 1.17;
 }
-.contacts:hover,
-.contacts:focus {
-	color: #757575;
-	color: #2196f3;
+/*Наша команда */
+.our-team {
+	text-align: center;
 }
 .team {
-	font-style: Bold;
 	font-size: 36px;
 	line-height: 1.17;
 }
 .team-members {
-	font-style: Medium;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 19px;
-	font-weight: 500;
 }
 .job-title {
 	font-style: Regular;
 	font-size: 16px;
 	line-height: 19px;
-	color: #757575;
+	color: var(--main-grey);
+}
+
+.contacts {
+	font-style: Regular;
+	line-height: 1.71;
+}
+/* Футер */
+.footer {
+	background: #2f303a;
+	width: 1600px;
+}
+.footer-address {
+	font-style: Regular;
+	line-height: 1.71;
+	font-style: inherit;
+	color: var(--main-white);
+}
+.logo-footer {
+	color: var(--main-white);
+}
+.contacts-footer {
+	color: rgba(255, 255, 255, 0.6);
+	line-height: 24px;
+}
+/* Фільтри */
+.filters-btn {
+	font-size: 16px;
+	line-height: 1.625;
+	color: inherit;
+	background: #f5f4fa;
+	height: 38px;
+	width: 125px;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+.filters-btn:hover,
+.filters-btn:hover {
+	color: var(--main-white);
+	background: var(--main-blue);
+	cursor: pointer;
+	box-sizing: border-box;
+}
+/* Проєкти */
+.projects-headline {
+	font-size: 18px;
+	line-height: 2;
+}
+.projects-desc {
+	font-size: 16px;
+	line-height: 1.875;
+	color: var(--main-grey);
 }
